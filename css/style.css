@@ -1,0 +1,65 @@
+#img {
+    width: 100%;
+    grid-area: "img";
+}
+
+#img img {
+    width: 100%;
+}
+
+#txt {
+    grid-area: "txt";
+}
+
+#txt h1 {
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+body {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    grid-template-areas: "img txt";
+    font-size: 1.5em;
+}
+
+.conteudo {
+    padding: 0.8vw 0.8vw 0.4vw 0.8vw;
+    border: solid black 1px;
+    align-self: center;
+    font-size: 18px;
+}
+
+.conteudo a {
+    text-decoration: none;
+    color: black;
+    display: block;
+    margin: 10px;
+    font-size: 18px;
+    transition: all 0.4s linear;
+}
+
+.conteudo a:hover {
+    color: blue;
+    font-size: 20px;
+}
+
+.conteudo a img {
+    width: 18px;
+}
+
+#grande {
+    height: 18px;
+}
+
+.txtAlunos {
+    text-align: center;
+}
+
+.aluno {
+    cursor: none;
+    transition: all 0.2s linear;
+}
+.aluno:hover {
+    color: blue;
+    padding: 0 5px;
+}
